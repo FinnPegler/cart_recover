@@ -6,7 +6,7 @@ let str = "";
 
 function changeCopy(event) {
 str = (field.value)
-if (str.match(/@[a-z.]com/i)) {console.log("string is: " + str)}
+if (str.match(/.com/i)) {console.log("string is: " + str)}
 }
 
 field.addEventListener("keyup", changeCopy)
