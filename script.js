@@ -3,7 +3,7 @@ var field = iframe.contentWindow.document.querySelector("booking[email]");
 
 function changeCopy() {
 console.log("function ran")
-field.value = "hello";
+field.placeholder = "hello";
 }
 
 document.getElementById("button").addEventListener("click", changeCopy) 
